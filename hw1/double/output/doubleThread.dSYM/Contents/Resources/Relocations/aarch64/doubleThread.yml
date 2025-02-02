@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/danielstone/Documents/Classes/CEC-470/hw1/double/output/doubleThread'
+relocations:     []
+...

@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++11",
+            "type": "shell",
+            "command": "clang++",
+            "args": [
+                "-std=c++11",   // Set C++11 standard
+                "-Wall",        // Enable warnings
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task for Clang++ C++11"
+        }
+    ]
+}

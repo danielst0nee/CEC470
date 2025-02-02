@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/danielstone/Documents/Classes/CEC-470/CEC 470 HW1P1/CEC 470 HW 1",
+      "program": "/Users/danielstone/Documents/Classes/CEC-470/CEC 470 HW1P1/CEC 470 HW 1/build/Debug/outDebug"
+    }
+  ]
+}
